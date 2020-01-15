@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component-config name="DemoComponent" author="applechang" version="1.0">
+    <object name="ITXQQLogin"     clsname="LoginCoObject" type="service"/>
+    <object name="ITXWeixinLogin" clsname="LoginCoObject" type="service"/>
+    <object name="ITXDataReport"  clsname="DataReportCoObject" type="object"/>
+    <object name="IWebViewBase"   clsname="CommonWebViewController" type="object"/>
+</component-config>

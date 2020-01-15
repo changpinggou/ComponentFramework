@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<core-config>
+  <platform>
+      <object name="ITXInterface1" clsname="ClassA" type="object"/>
+      <object name="ITXInterface2" clsname="ClassA" type="object"/>
+      <object name="ITXInterface3" clsname="ClassA" type="object"/>
+  </platform>
+  
+  <components>
+      <component name="DemoComponent" cfgPath="">
+          <object name="ITXQQLogin"     clsname="LoginCoObject" type="service"/>
+          <object name="ITXWeixinLogin" clsname="LoginCoObject" type="service"/>
+          <object name="ITXDataReport"  clsname="DataReportCoObject" type="object"/>
+          <object name="IWebViewBase"   clsname="CommonWebViewController" type="object"/>
+      </component>
+  </components>
+</core-config>
